@@ -1,0 +1,79 @@
+This application uses the following open-source software components. 
+We thank their authors for making their work available to the community.
+
+───────────────────────────────────────────────────────
+1. Python (https://www.python.org/)
+   License: Python Software Foundation License (PSF License)
+   Source: https://github.com/python/cpython
+
+2. edge-tts (https://github.com/rany2/edge-tts)
+   - Most files: GNU Lesser General Public License v3.0 (LGPL-3.0)
+   - File src/edge_tts/srt_composer.py: MIT License
+   Source: https://github.com/rany2/edge-tts
+
+3. kokoro-onnx (https://github.com/thewh1teagle/kokoro-onnx)
+   License: MIT License
+   Source: https://github.com/thewh1teagle/kokoro-onnx
+
+4. misaki (https://github.com/thewh1teagle/misaki)
+   License: MIT License
+   Source: https://github.com/thewh1teagle/misaki
+
+5. ollama-python (https://github.com/ollama/ollama-python)
+   License: MIT License
+   Source: https://github.com/ollama/ollama-python
+
+6. NumPy (https://numpy.org/)
+   License: BSD 3-Clause License
+   Source: https://github.com/numpy/numpy
+
+7. SciPy (https://scipy.org/)
+   License: BSD 3-Clause License
+   Source: https://github.com/scipy/scipy
+
+8. SoundDevice (https://python-sounddevice.readthedocs.io/)
+   License: MIT License
+   Source: https://github.com/spatialaudio/python-sounddevice
+
+9. PySoundFile (https://pysoundfile.readthedocs.io/)
+   License: BSD 3-Clause License
+   Source: https://github.com/bastibe/python-soundfile
+
+10. Pyperclip (https://github.com/asweigart/pyperclip)
+    License: BSD 3-Clause License
+    Source: https://github.com/asweigart/pyperclip
+
+11. Jieba (https://github.com/fxsjy/jieba) [indirectly via warnings filter]
+    License: MIT License
+    Source: https://github.com/fxsjy/jieba
+
+───────────────────────────────────────────────────────
+License Summaries:
+
+• PSF License (Python):  
+  Allows use, modification, and redistribution. Not GPL-compatible.  
+  Full text: https://docs.python.org/3/license.html
+
+• LGPL-3.0 (edge-tts core):  
+  You may use this library in proprietary software, but if you modify the library itself,  
+  you must make the modified source available under LGPL-3.0.  
+  As required by Section 4 of LGPL-3.0, you have the right to:
+    – Replace the included edge_tts module with your own modified version
+    – Re-run the application with that modified version  
+  Full texts:  
+    – LGPL-3.0: https://www.gnu.org/licenses/lgpl-3.0.txt  
+    – GPL-3.0 (included by reference): https://www.gnu.org/licenses/gpl-3.0.txt
+
+• MIT / BSD Licenses:  
+  Permissive licenses allowing free use, modification, and distribution,  
+  provided copyright and permission notices are retained.  
+  No warranty is provided.
+
+───────────────────────────────────────────────────────
+The full source code of this application and all referenced open-source components 
+is available upon request or via the URLs listed above.
+
+For compliance with LGPL-3.0, the source code of edge-tts can be obtained from:  
+https://github.com/rany2/edge-tts
+
+This software is distributed WITHOUT ANY WARRANTY.
